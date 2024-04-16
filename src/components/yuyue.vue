@@ -12,7 +12,9 @@
           <van-tab title="网上预约">
             <yuYueMain></yuYueMain>
           </van-tab>
-          <van-tab title="历史预约">内容 2</van-tab>
+          <van-tab title="历史预约">
+            <testEcharts></testEcharts>
+          </van-tab>
         </van-tabs>
       </van-config-provider>
     </div>
@@ -22,19 +24,25 @@
 <script lang="ts">
 import {ref, reactive} from "vue";
 import yuYueMain from "../views/yuYueMain.vue";
+import testEcharts from "../components/testEcharts.vue"
 
 export default {
   name: 'yuYue',
   components: {
-    yuYueMain
+    yuYueMain, testEcharts
   }
 }
 </script>
 
 <script lang="ts" setup>
+interface themeVars {
+  tabsCardHeight: string,
+  radiusSm: string
+}
+
 const onClickLeft = () => history.back();
-const active = ref(0)
-const themeVars = reactive({
+const active = ref<number>(0)
+const themeVars = reactive<themeVars>({
   tabsCardHeight: '50px',
   radiusSm: '5px',
 })

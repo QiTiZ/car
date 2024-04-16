@@ -55,10 +55,10 @@ export default {
 </script>
 
 <script lang="ts" setup>
-const active = ref(0);
+const active = ref<number>(0);
 
-const username = ref('')
-const phone = ref()
+const username = ref<string>('')
+const phone = ref<number>()
 
 import type {CascaderProps} from 'ant-design-vue';
 
@@ -66,12 +66,10 @@ const options: CascaderProps['options'] = [
   {
     value: '皖',
     label: '皖',
-
   },
   {
     value: '苏',
     label: '苏',
-
   },
 ];
 const value = ref<string[]>([]);
