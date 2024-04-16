@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "540014",
+      "name": "number-three",
+      "font_class": "numberthree",
+      "unicode": "e75d",
+      "unicode_decimal": 59229
+    },
+    {
+      "icon_id": "9721637",
+      "name": "number-one",
+      "font_class": "number-one",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "9722001",
+      "name": "number-two",
+      "font_class": "number-two",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    }
+  ]
+}

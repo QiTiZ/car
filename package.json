@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "ant-design-vue": "^4.1.2",
     "less": "^4.2.0",
     "less-loader": "^6.0.0",
     "vant": "^4.8.11",
