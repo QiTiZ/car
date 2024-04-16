@@ -115,6 +115,7 @@ const numberPlate = ref<string[]>([]);
 :where(.css-dev-only-do-not-override-1hsjdkk).ant-input {
   width: 45%;
   margin: 0 15px;
+  text-align: center;
 }
 
 .numberPlate {
